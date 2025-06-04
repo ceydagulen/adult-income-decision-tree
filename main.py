@@ -1,8 +1,5 @@
-# =============================================================================
-# KARAR AĞACI İLE ADULT GELİR TAHMİNİ – TAM AÇIKLAMALI KOD
-# =============================================================================
 
-# ---------- 0) KÜTÜPHANELER --------------------------------------------------
+
 import os
 import pandas as pd
 import numpy as np
@@ -81,9 +78,9 @@ print(f"Precision: {precision_score(y_test_enc, y_test_pred):.4f}")
 print(f"Recall   : {recall_score(y_test_enc, y_test_pred):.4f}")
 print(f"F1 Score : {f1_score(y_test_enc, y_test_pred):.4f}\n")
 
-# =============================================================================
-# 6) GÖRSELLER – RAPORDA KULLANILACAK ŞEKİLLER
-# =============================================================================
+
+# 6) GÖRSELLER 
+
 
 # ------ 6.1 Histogram: Gelir Dağılımı ---------------------------------------
 plt.figure(figsize=(6, 4))
